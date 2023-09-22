@@ -107,7 +107,7 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:Auroruaa/auroruaa.github.io.git
-  branch: ph-page
+  branch: ph-pages
 symbols_count_time:
   symbols: true
   time: true
