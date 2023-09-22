@@ -106,7 +106,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:Auroruaa/Auroruaa.github.io.git
+  repo: git@github.com:Auroruaa/auroruaa.github.io.git
   branch: ph-pages
 symbols_count_time:
   symbols: true
