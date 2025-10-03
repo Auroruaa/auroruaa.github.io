@@ -2,9 +2,9 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 8.0.0">
-
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 8.0.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
@@ -13,13 +13,14 @@
 <link rel="stylesheet" href="/css/main.css">
 
 
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.17.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
-
-    <meta name="description" content="牢骚太盛防肠断,风物长宜放眼量。">
+  <meta name="description" content="牢骚太盛防肠断,风物长宜放眼量。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="日记·篇01·23年7月">
 <meta property="og:url" content="http://example.com/2023/07/13/%E6%97%A5%E8%AE%B0%C2%B7%E7%AF%8701%C2%B723%E5%B9%B47%E6%9C%88/index.html">
@@ -31,18 +32,21 @@
 <meta property="article:author" content="Auroruaa">
 <meta name="twitter:card" content="summary">
 
-
 <link rel="canonical" href="http://example.com/2023/07/13/%E6%97%A5%E8%AE%B0%C2%B7%E7%AF%8701%C2%B723%E5%B9%B47%E6%9C%88/">
 
 
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2023/07/13/%E6%97%A5%E8%AE%B0%C2%B7%E7%AF%8701%C2%B723%E5%B9%B47%E6%9C%88/","path":"2023/07/13/日记·篇01·23年7月/","title":"日记·篇01·23年7月"}</script>
-
-<script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>日记·篇01·23年7月 | 华枝春满，天心月圆</title>
+  <title>日记·篇01·23年7月 | 华枝春满，天心月圆</title>
   
-
-
 
 
 
@@ -50,32 +54,55 @@
 
 
   <noscript>
-    <link rel="stylesheet" href="/css/noscript.css">
-  </noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
-  <div class="headband"></div>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
 
-  <main class="main">
-    <div class="column">
-      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏" role="button">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
     </div>
   </div>
 
   <div class="site-meta">
 
     <a href="/" class="brand" rel="start">
-      <i class="logo-line"></i>
-      <p class="site-title">华枝春满，天心月圆</p>
-      <i class="logo-line"></i>
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">华枝春满，天心月圆</h1>
+      <span class="logo-line-after"><i></i></span>
     </a>
   </div>
 
   <div class="site-nav-right">
-    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    <div class="toggle popup-trigger">
     </div>
   </div>
 </div>
@@ -83,124 +110,94 @@
 
 
 
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
 
 
 
-</header>
-        
-  
-  <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
-      <ul class="sidebar-nav">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
-
-      <div class="sidebar-panel-container">
-        <!--noindex-->
-        <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">7月14日</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">2.</span> <span class="nav-text">7月16日</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">3.</span> <span class="nav-text">7月17日凌晨1：42</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">4.</span> <span class="nav-text">7月18日</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">5.</span> <span class="nav-text">7.19</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">6.</span> <span class="nav-text">7.21</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">7.</span> <span class="nav-text">7.22</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">8.</span> <span class="nav-text">7.23</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">9.</span> <span class="nav-text">7.24</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">10.</span> <span class="nav-text">7.25</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">11.</span> <span class="nav-text">7.26</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">12.</span> <span class="nav-text">7.27</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">13.</span> <span class="nav-text">7.28</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">14.</span> <span class="nav-text">7.31</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">15.</span> <span class="nav-text">七月，撒花！</span></a></li></ol></div>
-        </div>
-        <!--/noindex-->
-
-        <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">Auroruaa</p>
-  <div class="site-description" itemprop="description"></div>
 </div>
-<div class="site-state-wrap animated">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-        <a href="/archives/">
-          <span class="site-state-item-count">15</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-  </nav>
-</div>
-
-        </div>
-      </div>
-    </div>
+    </header>
 
     
-  </aside>
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
 
 
-    </div>
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
 
-    <div class="main-inner post posts-expand">
+          <div class="content post posts-expand">
+            
 
-
+    
   
-
-
-<div class="post-block">
   
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/13/%E6%97%A5%E8%AE%B0%C2%B7%E7%AF%8701%C2%B723%E5%B9%B47%E6%9C%88/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Auroruaa">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="华枝春满，天心月圆">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="日记·篇01·23年7月 | 华枝春满，天心月圆">
-      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           日记·篇01·23年7月
         </h1>
 
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-07-13 08:56:34" itemprop="dateCreated datePublished" datetime="2023-07-13T08:56:34+08:00">2023-07-13</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-07-31 16:58:58" itemprop="dateModified" datetime="2023-07-31T16:58:58+08:00">2023-07-31</time>
-    </span>
+              <time title="创建时间：2023-07-13 08:56:34" itemprop="dateCreated datePublished" datetime="2023-07-13T08:56:34+08:00">2023-07-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-07-31 16:58:58" itemprop="dateModified" datetime="2023-07-31T16:58:58+08:00">2023-07-31</time>
+              </span>
 
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>2.7k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>2 分钟</span>
-    </span>
-</div>
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.9k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
 
         </div>
       </header>
@@ -208,7 +205,10 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>牢骚太盛防肠断,风物长宜放眼量。</p>
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>牢骚太盛防肠断,风物长宜放眼量。</p>
 <span id="more"></span>
 <h1>7月14日</h1>
 <p>猫猫暑假以来一直处于一个浮躁的状态。既没有放心地开摆，也没有安心学习。</p>
@@ -238,9 +238,11 @@
 <p>今日spoony idiot（1/1）怎么开始无病呻吟了啊喂qwq<p>
 <p>今天外面雨下的很大，像是海边的晨雾（？），混着沙沙声，有了天然的白噪音。不知不觉就想起，好多次在校园里跟她擦肩而过，也是在一个个雨天。这么说还蛮喜欢雨天的（？）<p>
 <blockquote class="blockquote-center">
-<p>选择相信自己的选择，<br>是当下最好的选择。</p>
+            <i class="fa fa-quote-left"></i>
+            <p>选择相信自己的选择，<br>是当下最好的选择。</p>
 
-</blockquote>
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
 <h1>7.23</h1>
 <p>刚刚才发现日期全都搞混了，spoony idiot证据+1<p>
 <p>开始改论文，也在看老师发过来的一些学位论文，深深认识到了自己是什么学术垃圾。从fdu的友人或师长那里曾经常听说，理工科的高等教育目的在于训练一种解决问题的思维方式，而这种思维逻辑在很多领域都是有泛用性的。<p>
@@ -254,9 +256,11 @@
 <h1>7.25</h1>
 <p>没有被友人创死，被英语词汇创死了。一天506页，逆天。<p>
 <blockquote class="blockquote-center">
-<p>书里总爱写到喜出望外的傍晚。</p>
+            <i class="fa fa-quote-left"></i>
+            <p>书里总爱写到喜出望外的傍晚。</p>
 
-</blockquote>
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
 <h1>7.26</h1>
 <p>今天开摆了，跟友人进行了一个感情杂谈回。感情的事情不想在博客里细讲。不过稍微写一点也是没关系的，我相信没有同学会闲得无聊来翻到这里吧（）<p>
 <p>有想过在高中就和一个人毫无保留地坠入爱河。从相互试探的暧昧到捅破窗户纸的怦然心动。从热恋到争吵，到磨合，在日复一日的相处中双向奔赴。一起坐着火车穿过山和海的距离，到新疆最北端的地方，一起坐在马路边数着天上的星星。沿途朦胧的水雾、恍如仙境一般的天池、农家屋子里悠然自得吃草的羊羔......从塔城的河边一口气奔到戈壁滩上，在晚上燃起篝火，在火焰边上从康德和引力场度规聊到种菜的诀窍，从艰涩的理想国聊到儿时的趣事。从塔城坐火车来到海边的一座小城，在栈桥边上吹着海风，夜里去啤酒节的主会场逛逛。不喝酒也没关系，吃着现打捞上来的海鲜，让人间的烟火气抚慰着被内卷折磨得千疮百孔的心灵。去看看青岛的山、海、重工业、每一个儿时奔跑过的胡同。去流亭机场看看，去方言中一个个难以形容的地名看看，去外婆家里看看那个传奇又不失可爱的老太太。<p>
@@ -275,16 +279,20 @@
 <p>请务必从现在开始加油吧，成为自己想成为的人。<p>
 <p>写点好玩的事情，在某学姐的博客上看到了efz成就系统，之后有空来填一下qwq<p>
 <blockquote class="blockquote-center">
-<p>红楼飞雪，一时英杰<br>先哲曾书写<br>爱国进步民主科学<br>忆昔长别，阳关千叠<br>狂歌曾竟夜<br>收拾山河待百年约</p>
+            <i class="fa fa-quote-left"></i>
+            <p>红楼飞雪，一时英杰<br>先哲曾书写<br>爱国进步民主科学<br>忆昔长别，阳关千叠<br>狂歌曾竟夜<br>收拾山河待百年约</p>
 
-</blockquote>
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
 <h1>7.31</h1>
 <p>安心做会前准备的几天，好像没什么事情，单纯地叙写流水账没有意义。回顾这个并不完美的7月，必须承认在观念和知识上有相当不错的收获。<p>
 <p>在提升自我的阶段，我所一直坚持的是避免陷入对过去的懊悔。八月就要来了，除了聚光灯下的发言、啤酒的麦芽香味、许久未见的至亲，还会有写满三角化简的草稿纸、classin板书和深夜里的砥砺前行。<p>
 <blockquote class="blockquote-center">
-<p>不管考成什么狗样，我都相信自己前途无量。</p>
+            <i class="fa fa-quote-left"></i>
+            <p>不管考成什么狗样，我都相信自己前途无量。</p>
 
-</blockquote>
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
 <center><h1>七月，撒花！</h1></center>
 
     </div>
@@ -293,92 +301,190 @@
     
     
 
-    <footer class="post-footer">
+      <footer class="post-footer">
 
         
 
-          <div class="post-nav">
-            <div class="post-nav-item">
-                <a href="/2023/07/08/%E5%8D%8E%E6%9E%9D%E6%98%A5%E6%BB%A1%EF%BC%8C%E5%A4%A9%E5%BF%83%E6%9C%88%E5%9C%86/" rel="prev" title="华枝春满，天心月圆">
-                  <i class="fa fa-chevron-left"></i> 华枝春满，天心月圆
-                </a>
-            </div>
-            <div class="post-nav-item">
-                <a href="/2023/07/31/%E6%97%A5%E8%AE%B0%C2%B7%E7%AF%8702%C2%B723%E5%B9%B48%E6%9C%88/" rel="next" title="日记·篇02·23年8月">
-                  日记·篇02·23年8月 <i class="fa fa-chevron-right"></i>
-                </a>
-            </div>
-          </div>
-    </footer>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/07/08/%E5%8D%8E%E6%9E%9D%E6%98%A5%E6%BB%A1%EF%BC%8C%E5%A4%A9%E5%BF%83%E6%9C%88%E5%9C%86/" rel="prev" title="华枝春满，天心月圆">
+      <i class="fa fa-chevron-left"></i> 华枝春满，天心月圆
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2023/07/31/%E6%97%A5%E8%AE%B0%C2%B7%E7%AF%8702%C2%B723%E5%B9%B48%E6%9C%88/" rel="next" title="日记·篇02·23年8月">
+      日记·篇02·23年8月 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
   </article>
-</div>
+  
+  
+  
 
 
 
+          </div>
+          
 
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
 
-
-</div>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-inner">
-
-  <div class="copyright">
-    &copy; 
-    <span itemprop="copyrightYear">2025</span>
-    <span class="with-love">
-      <i class="fa fa-heart"></i>
-    </span>
-    <span class="author" itemprop="copyrightHolder">Auroruaa</span>
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
   </div>
-<div class="wordcount">
-  <span class="post-meta-item">
-    <span class="post-meta-item-icon">
-      <i class="fa fa-chart-line"></i>
-    </span>
-    <span title="站点总字数">18k</span>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">7月14日</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">2.</span> <span class="nav-text">7月16日</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">3.</span> <span class="nav-text">7月17日凌晨1：42</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">4.</span> <span class="nav-text">7月18日</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">5.</span> <span class="nav-text">7.19</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">6.</span> <span class="nav-text">7.21</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">7.</span> <span class="nav-text">7.22</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">8.</span> <span class="nav-text">7.23</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">9.</span> <span class="nav-text">7.24</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">10.</span> <span class="nav-text">7.25</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">11.</span> <span class="nav-text">7.26</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">12.</span> <span class="nav-text">7.27</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">13.</span> <span class="nav-text">7.28</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">14.</span> <span class="nav-text">7.31</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">15.</span> <span class="nav-text">七月，撒花！</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Auroruaa</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
   </span>
-  <span class="post-meta-item">
+  <span class="author" itemprop="copyrightHolder">Auroruaa</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">19k</span>
+    <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">16 分钟</span>
-  </span>
+    <span title="站点阅读时长">17 分钟</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
 
-    </div>
-  </footer>
+        
 
-  
-  <div class="back-to-top" role="button" aria-label="返回顶部">
-    <i class="fa fa-arrow-up fa-lg"></i>
-    <span>0%</span>
+
+
+
+
+
+
+
+      </div>
+    </footer>
   </div>
 
-<noscript>
-  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
-</noscript>
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
 
 
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 
-
-
-
-
-
   
-
-
-
-
 
 </body>
 </html>
