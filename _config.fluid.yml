@@ -1,0 +1,13 @@
+# Fluid 主题专有配置
+theme_static_prefix: lib/fluid/
+
+# 导航栏标题
+navbar:
+  blog_title: "Aurora's Blog" # 改成你喜欢的名字
+
+# 开启数学公式 (针对你的高数/竞赛学习)
+post:
+  math:
+    enable: true
+    specific: true
+    engine: mathjax
